@@ -5,7 +5,7 @@ Dear Candidate,
 Here you can find our detailed tech challenge for your kind consideration. Please let us know if you would have any questions about our tech challenge.
 
 Yours truly,
-Raisin.
+Raisin DS.
 
 ## API
 
@@ -38,7 +38,7 @@ Please find below the ticket that was started but **not** finished by our workin
 
 #### User story
 
-**As a** Raisin customer,  
+**As a** Raisin DS customer,  
 **I want** to see the Offers table  
 **Because** I want to check the latest offers.
 
@@ -82,11 +82,12 @@ The designs and the way the details component is displayed is up to you.
 Our working student has already started working on this task and has left some notes about his progress
 
 - Wire FE with the Node BE and test the GET endpoint ✔ Completed
-- Create reusable `Header` component ✔ Completed
-- Create `ProductOffers` page component and fetch API data. ✔ Completed
-- Create `List` component ✔ Completed
-- Create `OfferCard` component (ready for code review)
-- Create `OfferDetails` component and add unit test coverage
+- Create reusable components (`Header` and `Card`) ✔ Completed
+- Create `Offer` component and fetch API data. ✔ Completed
+- Set up test env and add unit test coverage for all existing components ✔ Completed
+- Create `InterestRateBox` and add unit test coverage ✔ Completed
+- Create `OfferBox` and add unit test coverage (ready for code review)
+- Create `OfferDetails` component amd add unit test coverage
 
 #### Your tasks:
 
