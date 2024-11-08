@@ -1,0 +1,74 @@
+{
+  "id": "JTB009",
+  "has_fixed_investment_amount": true,
+  "is_in_foreign_currency": false,
+  "min_placement_amount": 10000,
+  "max_placement_amount": 100000,
+  "is_overnight": false,
+  "is_notice_account": false,
+  "currency": "EUR",
+  "nominal_interest_rate": 1.2,
+  "effective_interest_rate": 1.17,
+  "has_fully_online_process": true,
+  "is_flexgeld": false,
+  "is_top_offer": false,
+  "has_auto_prolongation": false,
+  "number_of_terms": 60,
+  "autoprolongation_number_of_terms": 12,
+  "premature_termination": false,
+  "interest_payout_scheme": "MATURITY",
+  "early_termination_effective_interest_rate": 0,
+  "opening_document": "NONE",
+  "prolongation_window": 28,
+  "maturity_window": 5,
+  "prolongation_document": "NONE",
+  "prolongation_capitalisation": "CUSTOMER_CHOICE",
+  "prolongation_enabled": true,
+  "prolongation_option": true,
+  "rate_change": false,
+  "interest_paid_on_booking": false,
+  "partner_bank": {
+    "id": "1173850",
+    "country": {
+      "id": "1173854",
+      "country_code": "CZE",
+      "name": "Tschechische Republik",
+      "description": "Die Tschechische Republik liegt in der Mitte Europas und ist bereits seit über einem Jahrzehnt (Mai 2004) Mitglied der Europäischen Union, wodurch der barrierefreie Zugang zum EU-Markt sichergestellt ist. Gemessen an ihrer Wirtschaftskraft sind beide Länder sehr hoch entwickelte Industriestaaten und zählen zu den zentralen Volkswirtschaften Mittel- und Osteuropas. Die Staatsverschuldung Tschechiens weist im Verhältnis zum Bruttoinlandsprodukt mit die niedrigsten Quoten in der gesamten EU auf und ist niedriger als die Staatsverschuldung Deutschlands. Die Tschechische Republik hat von den größten Ratingagenturen jeweils ein Investmentgrade-Rating mit stabilen Aussichten erhalten. Das tschechische Banksystem gilt als gesund und stabil.",
+      "source_tax": 15,
+      "source_tax_description": "Grundsätzlich wird eine Quellensteuer in Höhe von 15 % erhoben, welche jedoch auf 0 % reduziert werden kann. Für die Reduzierung der Quellensteuer muss eine Ansässigkeitsbescheinigung bis spätestens vier Wochen vor der ersten Zinszahlung (Zinskapitalisierung) und bei mehrjährigen Festgeldprodukten zusätzlich vor der Fälligkeit vorliegen.",
+      "credit_rating": "A1"
+    },
+    "description": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-size:12px;\"><span id=\"docs-internal-guid-54b3a429-7fff-6c68-1122-16df3a1de714\"><span style=\"font-family: Arial; color: rgb(64, 64, 64); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Die J&amp;T Banka wurde 1998 in Prag gegr&uuml;ndet und geh&ouml;rt zur tschechisch-slowakischen J&amp;T Finance Group, welche unter anderem Beteiligungen in verschiedenen Industrien, wie z. B. im Energiesektor, im Gesundheitswesen, in Immobilien und Medien h&auml;lt. Au&szlig;erdem befindet sich der tschechische Fu&szlig;ball-Klub Sparta Prag im Portfolio.</span></span></span></p>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 6pt; margin-bottom: 6pt;\"><span style=\"font-size:12px;\"><span id=\"docs-internal-guid-54b3a429-7fff-6c68-1122-16df3a1de714\"><span style=\"font-family: Arial; color: rgb(64, 64, 64); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">&Uuml;ber die letzten Jahre hat sich die Bank zu einer der gr&ouml;&szlig;ten Privatbanken auf dem tschechischen Markt etabliert. Weitere Bank-Filialen werden u.a. in der Slowakei, Russland, und Kroatien betrieben. </span></span></span></p>\r\n\r\n<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 8pt;\"><span style=\"font-size:12px;\"><span id=\"docs-internal-guid-54b3a429-7fff-6c68-1122-16df3a1de714\"><span style=\"font-family: Arial; color: rgb(64, 64, 64); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Die Bank ist insbesondere f&uuml;r Kunden mit hohen Anforderungen an Service und Produktqualit&auml;t ein zuverl&auml;ssiger Partner. Neben komplexen Private-Banking-Dienstleistungen bietet J&amp;T Banka Spezialfinanzierungen f&uuml;r Immobilien- und Unternehmensk&auml;ufe sowie Wertpapiergesch&auml;fte f&uuml;r Privatanleger an.</span></span></span></p>",
+    "description_short": "Die J&T Banka wurde 1998 in Prag gegründet und gehört zu einer der größten Privatbanken auf dem tschechischen Markt. Die Bank ist insbesondere für Kunden mit hohen Anforderungen an Service und Produktqualität ein zuverlässiger Partner. Neben komplexen Private-Banking-Dienstleistungen bietet J&T Banka Spezialfinanzierungen für Immobilien- und Unternehmenskäufe sowie Wertpapiergeschäfte für Privatanleger an.",
+    "name": "J&T Banka",
+    "maximum_deposit_amount_per_customer": 100000,
+    "cms_content": {
+      "logo": {
+        "id": "logo_url",
+        "type": "ATTACHMENT",
+        "media_type": "image/png",
+        "url_path": "/savingglobal/cms/b/1173852/logo_JnT"
+      }
+    }
+  },
+  "cms_content": {
+    "deposit_insurance_description": {
+      "id": "deposit_insurance_description",
+      "type": "STRING_HTML",
+      "value": "Die gesetzliche Einlagensicherung der Tschechischen Republik garantiert einen maximalen Sicherungsbetrag im Gegenwert von 100.000 Euro je Bank und Kunde. Im Falle einer Auszahlung durch den Einlagensicherungsfonds erfolgt diese in Tschechischen Kronen (CZK). Weitere Informationen zur Einlagensicherung finden Sie unter https://www.garancnisystem.cz/de. Innerhalb der Europäischen Union sind die Mindestanforderungen in allen Mitgliedsstaaten harmonisiert durch die Richtlinien 94/19/EG, 2009/14/EG und 2014/49/EU."
+    },
+    "description_document": {
+      "id": "description_document",
+      "type": "ATTACHMENT",
+      "media_type": "application/pdf",
+      "url_path": "/savingglobal/cms/b/1173876/PIB_JTB_BD.pdf"
+    },
+    "deposit_insurance_name": {
+      "id": "deposit_insurance_name",
+      "type": "STRING_PLAIN",
+      "value": "bis 100.000 EUR"
+    }
+  },
+  "tax_number_required": false,
+  "risk_banner": null
+}
