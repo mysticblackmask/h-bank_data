@@ -1,17 +1,18 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import styles from './styles.module.scss';
 
-const OfferCard = props => {
-  const openDetails = e => {
-    e.preventDefault();
-    // TODO: implement details for the product offer
-  };
+const OfferCard = (props) => {
+  // const openDetails = (e) => {
+  //   e.preventDefault();
+  //   // TODO: implement details for the product offer
+  // };
 
   const { name: partnerBankName } = props.offer.partner_bank;
-  console.log(props.openAccount.status);
-  console.log(props.openAccount.offerId);
-  console.log(props.offer.id);
+  // console.log(props.openAccount.status);
+  // console.log(props.openAccount.offerId);
+  // console.log(props.offer.id);
 
   return (
     <div className={styles.offerCardWrapper}>
@@ -33,15 +34,17 @@ const OfferCard = props => {
       </div>
       <div className={styles.detailsLinkWrapper}>
         {/*eslint-disable jsx-a11y/anchor-is-valid*/}
-        <a href="#" onClick={openDetails}>
+        <Link to={`/offer/${props.offer.id}`}>
+          {/* <a href="#" onClick={openDetails}> */}
           Product details
-        </a>
+          {/* </a> */}
+        </Link>
       </div>
     </div>
   );
 };
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   openAccount: state.openAccount,
 });
 

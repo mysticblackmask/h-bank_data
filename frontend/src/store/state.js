@@ -4,6 +4,7 @@ const initialState = {
   openAccount: '',
   openAccountError: null,
   isLoading: false,
+  productOffer: null,
 };
 
 export default initialState;
