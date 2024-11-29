@@ -14,8 +14,7 @@
     "redux-pack": "^0.1.5"
   },
   "scripts": {
-    "api": "cd ../api && nohup node index.js &",
-    "start": "npm run api && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
